@@ -1,1 +1,40 @@
-css
+<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		#sushi{
+			background: #e6b830;
+		}
+		#beef{
+			background: #bb0a1e;
+		}
+		#chicken{
+			background: #e8a5a8;
+		}
+
+		h1{
+			font-size: 26px;
+			text-align: center;
+		}
+		section{
+			background: #d3d3d3;
+			width : 30%;
+			float: left;
+			margin: 1%; 
+			border: 3px solid;
+		}
+		h2 {
+			float: right;
+			padding: 3px;
+			font-size: 18px;
+			text-align: right;
+			width: 45%;	
+			border-left: 3px solid;
+			border-bottom: 3px solid;
+			margin-top: 0px;
+		}
+		div{
+			clear:right;
+			padding: 10px;
+		}
+	</style>
