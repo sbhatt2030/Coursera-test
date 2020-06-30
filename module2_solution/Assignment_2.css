@@ -21,20 +21,38 @@
 			width : 30%;
 			float: left;
 			margin: 1%; 
-			border: 3px solid;
+			border: 1px solid;
 		}
 		h2 {
 			float: right;
 			padding: 3px;
 			font-size: 18px;
-			text-align: right;
-			width: 45%;	
-			border-left: 3px solid;
-			border-bottom: 3px solid;
+			text-align: center;
+			width: 25%;	
+			border-left: 1px solid;
+			border-bottom: 1px solid;
 			margin-top: 0px;
 		}
 		div{
 			clear:right;
 			padding: 10px;
+		}
+
+		@media (min-width: 768px) and (max-width: 991px) {
+			.one{
+				width: 46%;
+			}
+			.two{
+				width: 95%;
+			}
+
+		}
+		@media (max-width: 767px) {
+			.one{
+				width: 95%;
+			}
+			.two{width: 95%;
+			}
+
 		}
 	</style>
