@@ -3,13 +3,18 @@
 			box-sizing: border-box;
 		}
 		#sushi{
-			background: #e6b830;
+			background: #a0ad47;
 		}
 		#beef{
 			background: #bb0a1e;
 		}
 		#chicken{
 			background: #e8a5a8;
+		}
+
+		body{
+			background: #ffd269;
+
 		}
 
 		h1{

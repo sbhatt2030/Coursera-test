@@ -1,0 +1,27 @@
+{
+  "name": "html_css_js_learning",
+  "version": "1.0.0",
+  "description": "directory for html css js course cousera",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm run browser-sync",
+    "test": "mocha",
+    "browser-sync": "browser-sync start --server --directory --files '*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbhatt2030/Coursera-test.git"
+  },
+  "author": "Shivam Bhatt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbhatt2030/Coursera-test/issues"
+  },
+  "homepage": "https://github.com/sbhatt2030/Coursera-test#readme"
+}
